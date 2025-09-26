@@ -1,0 +1,486 @@
+{
+    "Starter_cards": [
+
+        {"id": 0, "name": "Guncho", "damage": 7, "health": 6, "speed": 3,
+        "type": "advanced", "nature": "aggressive", "ability": "speedup",
+        "abilityText": "Guncho gains +1 Speed every turn",
+        "description": "Guncho"},
+
+        {"id": 1, "name": "Glittle", "damage": 4, "health": 10, "speed": 5,
+        "type": "artificial", "nature": "basic", "ability": "bossfat",
+        "abilityText": "Glittle takes -1 Damage from Boss attacks",
+        "description": "Glittle"},
+
+        {"id": 2, "name": "Douber", "damage": 5, "health": 8, "speed": 4,
+        "type": "advanced", "nature": "basic", "ability": "pickup",
+        "abilityText": "Draw a Utility card before a battle, if it is a stat increase then attach to Douber",
+        "description": "Douber"},
+
+        {"id": 3, "name": "Paulmer", "damage": 7, "health": 4, "speed": 6,
+        "type": "light", "nature": "protective", "ability": "healing",
+        "abilityText": "Paulmer can heal a teammate once a battle for 3HP",
+        "description": "Paulmer"},
+
+        {"id": 4, "name": "Spyke", "damage": 3, "health": 14, "speed": 3,
+        "type": "natural", "nature": "defensive", "ability": "hardshell",
+        "abilityText": "Spyke takes -2 Damage on the 3rd turn of Battle",
+        "description": "Spyke"},
+
+        {"id": 5, "name": "Rapleer", "damage": 4, "health": 6, "speed": 7,
+        "type": "natural", "nature": "sneaky", "ability": "sneakattack",
+        "abilityText": "Rapleer deals +2 Damage if attacked while blocking",
+        "description": "Rapleer"},
+
+        {"id": 6, "name": "Stuic", "damage": 4, "health": 12, "speed": 2,
+        "type": "dark", "nature": "basic", "ability": "draw",
+        "abilityText": "If Stuic wins a battle, draw a Utility card",
+        "description": "Stuic"},
+
+        {"id": 7, "name": "Ssserpo", "damage": 3, "health": 12, "speed": 6,
+        "type": "natural", "nature": "basic", "ability": "thicktounge",
+        "abilityText": "Ssserpo deals +2 Damage on the 3rd turn of Battle",
+        "description": "Ssserpo"}
+    ],
+    "Common_cards": [
+
+        {"id": 0, "name": "Bladee", "damage": 4, "health": 8, "speed": 3,
+        "type": "natural", "nature": "passive", "ability": "collectable",
+        "abilityText": "Gain 5TP if you hold 3 Bladee",
+        "description": "Bladee"},
+
+        {"id": 1, "name": "OffSpring", "damage": 1, "health": 9, "speed": 4,
+        "type": "artificial", "nature": "basic", "ability": "mutualism",
+        "abilityText": "If Offspring transforms, transforms another deject",
+        "description": "Offspring"},
+
+        {"id": 2, "name": "Moxe", "damage": 4, "health": 9, "speed": 4,
+        "type": "artificial", "nature": "aggressive", "ability": "pintup",
+        "abilityText": "Moxe can only double damage on turn 2",
+        "description": "Moxe"},
+
+        {"id": 3, "name": "Trixard", "damage": 2, "health": 6, "speed": 3,
+        "type": "light", "nature": "strategic", "ability": "joker",
+        "abilityText": "Trixards attack is doubled every time a new target is attacked",
+        "description": "Trixard"},
+
+        {"id": 4, "name": "Bowly", "damage": 4, "health": 7, "speed": 1,
+        "type": "advanced", "nature": "aggressive", "ability": "bully",
+        "abilityText": "Bowly gains +3 attack if opponents attack is below 4",
+        "description": "Bowly"},
+
+        {"id": 5, "name": "Sectoid", "damage": 3, "health": 3, "speed": 2,
+        "type": "dark", "nature": "basic", "ability": "suck",
+        "abilityText": "Every attack Sectoid can heal opponent or itself for 3 hp",
+        "description": "Sectoud"},
+
+        {"id": 6, "name": "Magmuck", "damage": 6, "health": 7, "speed": 0,
+        "type": "artificial", "nature": "basic", "ability": "suck",
+        "abilityText": "Magmuck has a 1/6 chance to deal double damage every attack",
+        "description": "Magmuck"},
+
+        {"id": 7, "name": "Pointdex", "damage": 4, "health": 8, "speed": 0,
+        "type": "artificial", "nature": "passive", "ability": "mean",
+        "abilityText": "Reroll opponents movement dice once",
+        "description": "Pointdex"},
+
+        {"id": 8, "name": "Cheeps", "damage": 2, "health": 12, "speed": 4,
+        "type": "natural", "nature": "defensive", "ability": "pintup",
+        "abilityText": "Cheeps can only increase defense on turn 2",
+        "description": "Cheeps"},
+
+        {"id": 9, "name": "Klep", "damage": 3, "health": 4, "speed": 5,
+        "type": "natural", "nature": "basic", "ability": "kleptomancy",
+        "abilityText": "Gain 4p if Klep defeats a boss",
+        "description": "Klep"},
+
+        {"id": 10, "name": "Glup", "damage": 3, "health": 9, "speed": 2,
+        "type": "dark", "nature": "sneaky", "ability": "manipulate",
+        "abilityText": "You may repick a wild deject once",
+        "description": "Glup"},
+
+        {"id": 11, "name": "Spung", "damage": 3, "health": 6, "speed": 5,
+        "type": "natural", "nature": "passive", "ability": "kleptomancy",
+        "abilityText": "Prevent the effects of black spaces",
+        "description": "Spung"},
+
+        {"id": 12, "name": "Mistnose", "damage": 2, "health": 16, "speed": 1,
+        "type": "elemental", "nature": "defensive", "ability": "neutralize",
+        "abilityText": "prevent all abilities in battle until Mistnose dies",
+        "description": "Mistnose"},
+
+        {"id": 13, "name": "Toofaze", "damage": 3, "health": 3, "speed": 6,
+        "type": "natural", "nature": "basic", "ability": "scholar",
+        "abilityText": "Toofaze gains +3 attack against wild dejects",
+        "description": "Toofaze"},
+
+        {"id": 14, "name": "Blaw", "damage": 1, "health": 9, "speed": 2,
+        "type": "artificial", "nature": "basic", "ability": "connection",
+        "abilityText": "gain access to trade center once",
+        "description": "Blaw"},
+
+        {"id": 15, "name": "Zoglox", "damage": 3, "health": 10, "speed": 3,
+        "type": "natural", "nature": "basic", "ability": "thief",
+        "abilityText": "Steal -2p from a player",
+        "description": "Zoglox"},
+
+        {"id": 16, "name": "Boomburst", "damage": 1, "health": 9, "speed": 3,
+        "type": "natural", "nature": "scary", "ability": "weaken",
+        "abilityText": "Reduce the attack of a minion by -2",
+        "description": "Boomburst"},
+
+        {"id": 17, "name": "Baclaphobe", "damage": 1, "health": 5, "speed": 1,
+        "type": "artificial", "nature": "basic", "ability": "multiply",
+        "abilityText": "Baclaphobe doubles its attack every attack",
+        "description": "Baclaphobe"},
+
+        {"id": 18, "name": "Tortish", "damage": 3, "health": 6, "speed": 3,
+        "type": "dark", "nature": "basic", "ability": "stealcard",
+        "abilityText": "steal a utility card from one player",
+        "description": "Tortish"},
+
+        {"id": 19, "name": "Purrt", "damage": 2, "health": 7, "speed": 5,
+        "type": "light", "nature": "basic", "ability": "takecard",
+        "abilityText": "draw a utility card",
+        "description": "Purrt"},
+
+        {"id": 20, "name": "Vervolve", "damage": 3, "health": 5, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "weakling",
+        "abilityText": "transform with 3 TP instead of 5",
+        "description": "Vervolve"},
+
+        {"id": 21, "name": "Claknid", "damage": 4, "health": 7, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "gamble",
+        "abilityText": "choose to flip a coin, heads is double damage tails is attack miss",
+        "description": "Claknid"},
+
+        {"id": 22, "name": "Lolywallup", "damage": 2, "health": 5, "speed": 6,
+        "type": "artificial", "nature": "basic", "ability": "hit",
+        "abilityText": "Deal +6 damage on turn 2",
+        "description": "Lolywallup"},
+
+        {"id": 23, "name": "Snorkin", "damage": 2, "health": 11, "speed": 3,
+        "type": "elemental", "nature": "basic", "ability": "sponge",
+        "abilityText": "miss attack to take half damage",
+        "description": "Snorkin"},
+
+        {"id": 24, "name": "Charcog", "damage": 4, "health": 9, "speed": 2,
+        "type": "elemental", "nature": "basic", "ability": "char",
+        "abilityText": "Redraw a utility card",
+        "description": "Charcog"},
+
+        {"id": 25, "name": "Salmyte", "damage": 2, "health": 9, "speed": 3,
+        "type": "artificial", "nature": "basic", "ability": "lick",
+        "abilityText": "double the effects of a utility card",
+        "description": "Salmyte"},
+
+        {"id": 26, "name": "Raidt", "damage": 1, "health": 10, "speed": 1,
+        "type": "elemental", "nature": "basic", "ability": "raidiate",
+        "abilityText": "Deal +1 damage to all opponenets every turn",
+        "description": "Raidt"},
+
+        {"id": 27, "name": "Pluge", "damage": 3, "health": 8, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "plugin",
+        "abilityText": "Deal double damage to elemental dejects",
+        "description": "Pluge"},
+
+        {"id": 28, "name": "Goob", "damage": 4, "health": 6, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "nothing",
+        "abilityText": "No ability",
+        "description": "Goob"}
+    ],
+    "Uncommon_cards": [
+
+        {"id": 0, "name": "Tbone", "damage": 5, "health": 6, "speed": 5,
+        "type": "natural", "nature": "basic", "ability": "nothing",
+        "abilityText": "No ability",
+        "description": "Tbone"}
+
+    ],
+    "Rare_cards": [
+
+    ],
+    "Mythic_cards": [
+
+    ],
+    "StarterTwo_cards": [
+
+        {"id": 0, "name": "Guncho", "damage": 10, "health": 9, "speed": 4,
+        "type": "advanced", "nature": "aggressive", "ability": "speedup",
+        "abilityText": "Guncho gains +1 Speed every turn",
+        "description": "Guncho"},
+
+        {"id": 1, "name": "Glittle", "damage": 5, "health": 14, "speed": 7,
+        "type": "artificial", "nature": "basic", "ability": "bossfat",
+        "abilityText": "Glittle takes -1 Damage from Boss attacks",
+        "description": "Glittle"},
+
+        {"id": 2, "name": "Douber", "damage": 7, "health": 11, "speed": 6,
+        "type": "advanced", "nature": "basic", "ability": "pickup",
+        "abilityText": "Draw a Utility card before a battle, if it is a stat increase then attach to Douber",
+        "description": "Douber"},
+
+        {"id": 3, "name": "Paulmer", "damage": 11, "health": 5, "speed": 10,
+        "type": "light", "nature": "protective", "ability": "healing",
+        "abilityText": "Paulmer can heal a teammate once a battle for 5HP",
+        "description": "Paulmer"},
+
+        {"id": 4, "name": "Spyke", "damage": 4, "health": 20, "speed": 4,
+        "type": "natural", "nature": "defensive", "ability": "hardshell",
+        "abilityText": "Spyke takes -3 Damage on the 3rd turn of Battle",
+        "description": "Spyke"},
+
+        {"id": 5, "name": "Rapleer", "damage": 6, "health": 8, "speed": 10,
+        "type": "natural", "nature": "sneaky", "ability": "sneakattack",
+        "abilityText": "Rapleer deals +3 Damage if attacked while blocking",
+        "description": "Rapleer"},
+
+        {"id": 6, "name": "Stuic", "damage": 6, "health": 17, "speed": 3,
+        "type": "dark", "nature": "basic", "ability": "draw",
+        "abilityText": "If Stuic wins a battle, draw a Utility card",
+        "description": "Stuic"},
+
+        {"id": 7, "name": "Ssserpo", "damage": 5, "health": 16, "speed": 8,
+        "type": "natural", "nature": "basic", "ability": "thicktounge",
+        "abilityText": "Ssserpo deals +3 Damage on the 3rd turn of Battle",
+        "description": "Ssserpo"}
+    ],
+    "CommonTwo_cards": [
+
+        {"id": 0, "name": "Bladee", "damage": 4, "health": 8, "speed": 3,
+        "type": "natural", "nature": "passive", "ability": "collectable",
+        "abilityText": "Gain 5TP if you hold 3 Bladee",
+        "description": "Bladee"},
+
+        {"id": 1, "name": "OffSpring", "damage": 1, "health": 9, "speed": 4,
+        "type": "artificial", "nature": "basic", "ability": "mutualism",
+        "abilityText": "If Offspring transforms, transforms another deject",
+        "description": "Offspring"},
+
+        {"id": 2, "name": "Moxe", "damage": 4, "health": 9, "speed": 4,
+        "type": "artificial", "nature": "aggressive", "ability": "pintup",
+        "abilityText": "Moxe can only double damage on turn 2",
+        "description": "Moxe"},
+
+        {"id": 3, "name": "Trixard", "damage": 2, "health": 6, "speed": 3,
+        "type": "light", "nature": "strategic", "ability": "joker",
+        "abilityText": "Trixards attack is doubled every time a new target is attacked",
+        "description": "Trixard"},
+
+        {"id": 4, "name": "Bowly", "damage": 4, "health": 7, "speed": 1,
+        "type": "advanced", "nature": "aggressive", "ability": "bully",
+        "abilityText": "Bowly gains +3 attack if opponents attack is below 4",
+        "description": "Bowly"},
+
+        {"id": 5, "name": "Sectoid", "damage": 3, "health": 3, "speed": 2,
+        "type": "dark", "nature": "basic", "ability": "suck",
+        "abilityText": "Every attack Sectoid can heal opponent or itself for 3 hp",
+        "description": "Sectoud"},
+
+        {"id": 6, "name": "Magmuck", "damage": 6, "health": 7, "speed": 0,
+        "type": "artificial", "nature": "basic", "ability": "suck",
+        "abilityText": "Magmuck has a 1/6 chance to deal double damage every attack",
+        "description": "Magmuck"},
+
+        {"id": 7, "name": "Pointdex", "damage": 4, "health": 8, "speed": 0,
+        "type": "artificial", "nature": "passive", "ability": "mean",
+        "abilityText": "Reroll opponents movement dice once",
+        "description": "Pointdex"},
+
+        {"id": 8, "name": "Cheeps", "damage": 2, "health": 12, "speed": 4,
+        "type": "natural", "nature": "defensive", "ability": "pintup",
+        "abilityText": "Cheeps can only increase defense on turn 2",
+        "description": "Cheeps"},
+
+        {"id": 9, "name": "Klep", "damage": 3, "health": 4, "speed": 5,
+        "type": "natural", "nature": "basic", "ability": "kleptomancy",
+        "abilityText": "Gain 4p if Klep defeats a boss",
+        "description": "Klep"},
+
+        {"id": 10, "name": "Glup", "damage": 3, "health": 9, "speed": 2,
+        "type": "dark", "nature": "sneaky", "ability": "manipulate",
+        "abilityText": "You may repick a wild deject once",
+        "description": "Glup"},
+
+        {"id": 11, "name": "Spung", "damage": 3, "health": 6, "speed": 5,
+        "type": "natural", "nature": "passive", "ability": "kleptomancy",
+        "abilityText": "Prevent the effects of black spaces",
+        "description": "Spung"},
+
+        {"id": 12, "name": "Mistnose", "damage": 2, "health": 16, "speed": 1,
+        "type": "elemental", "nature": "defensive", "ability": "neutralize",
+        "abilityText": "prevent all abilities in battle until Mistnose dies",
+        "description": "Mistnose"},
+
+        {"id": 13, "name": "Toofaze", "damage": 3, "health": 3, "speed": 6,
+        "type": "natural", "nature": "basic", "ability": "scholar",
+        "abilityText": "Toofaze gains +3 attack against wild dejects",
+        "description": "Toofaze"},
+
+        {"id": 14, "name": "Blaw", "damage": 1, "health": 9, "speed": 2,
+        "type": "artificial", "nature": "basic", "ability": "connection",
+        "abilityText": "gain access to trade center once",
+        "description": "Blaw"},
+
+        {"id": 15, "name": "Zoglox", "damage": 3, "health": 10, "speed": 3,
+        "type": "natural", "nature": "basic", "ability": "thief",
+        "abilityText": "Steal -2p from a player",
+        "description": "Zoglox"},
+
+        {"id": 16, "name": "Boomburst", "damage": 1, "health": 9, "speed": 3,
+        "type": "natural", "nature": "scary", "ability": "weaken",
+        "abilityText": "Reduce the attack of a minion by -2",
+        "description": "Boomburst"},
+
+        {"id": 17, "name": "Baclaphobe", "damage": 1, "health": 5, "speed": 1,
+        "type": "artificial", "nature": "basic", "ability": "multiply",
+        "abilityText": "Baclaphobe doubles its attack every attack",
+        "description": "Baclaphobe"},
+
+        {"id": 18, "name": "Tortish", "damage": 3, "health": 6, "speed": 3,
+        "type": "dark", "nature": "basic", "ability": "stealcard",
+        "abilityText": "steal a utility card from one player",
+        "description": "Tortish"},
+
+        {"id": 19, "name": "Purrt", "damage": 2, "health": 7, "speed": 5,
+        "type": "light", "nature": "basic", "ability": "takecard",
+        "abilityText": "draw a utility card",
+        "description": "Purrt"},
+
+        {"id": 20, "name": "Vervolve", "damage": 3, "health": 5, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "weakling",
+        "abilityText": "transform with 3 TP instead of 5",
+        "description": "Vervolve"},
+
+        {"id": 21, "name": "Claknid", "damage": 4, "health": 7, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "gamble",
+        "abilityText": "choose to flip a coin, heads is double damage tails is attack miss",
+        "description": "Claknid"},
+
+        {"id": 22, "name": "Lolywallup", "damage": 2, "health": 5, "speed": 6,
+        "type": "artificial", "nature": "basic", "ability": "hit",
+        "abilityText": "Deal +6 damage on turn 2",
+        "description": "Lolywallup"},
+
+        {"id": 23, "name": "Snorkin", "damage": 2, "health": 11, "speed": 3,
+        "type": "elemental", "nature": "basic", "ability": "sponge",
+        "abilityText": "miss attack to take half damage",
+        "description": "Snorkin"},
+
+        {"id": 24, "name": "Charcog", "damage": 4, "health": 9, "speed": 2,
+        "type": "elemental", "nature": "basic", "ability": "char",
+        "abilityText": "Redraw a utility card",
+        "description": "Charcog"},
+
+        {"id": 25, "name": "Salmyte", "damage": 2, "health": 9, "speed": 3,
+        "type": "artificial", "nature": "basic", "ability": "lick",
+        "abilityText": "double the effects of a utility card",
+        "description": "Salmyte"},
+
+        {"id": 26, "name": "Raidt", "damage": 1, "health": 10, "speed": 1,
+        "type": "elemental", "nature": "basic", "ability": "raidiate",
+        "abilityText": "Deal +1 damage to all opponenets every turn",
+        "description": "Raidt"},
+
+        {"id": 27, "name": "Pluge", "damage": 3, "health": 8, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "plugin",
+        "abilityText": "Deal double damage to elemental dejects",
+        "description": "Pluge"},
+
+        {"id": 28, "name": "Goob", "damage": 4, "health": 6, "speed": 4,
+        "type": "natural", "nature": "basic", "ability": "nothing",
+        "abilityText": "No ability",
+        "description": "Goob"}
+
+    ],
+    "UncommonTwo_cards": [
+
+    ],
+    "RareTwo_cards": [
+
+    ],
+    "StarterThree_cards": [
+
+        {"id": 0, "name": "Guncho", "damage": 14, "health": 13, "speed": 6,
+        "type": "advanced", "nature": "aggressive", "ability": "speedup",
+        "abilityText": "Guncho gains +2 Speed every turn",
+        "description": "Guncho"},
+
+        {"id": 1, "name": "Glittle", "damage": 7, "health": 20, "speed": 10,
+        "type": "artificial", "nature": "basic", "ability": "bossfat",
+        "abilityText": "Glittle takes -2 Damage from Boss attacks",
+        "description": "Glittle"},
+
+        {"id": 2, "name": "Douber", "damage": 10, "health": 16, "speed": 8,
+        "type": "advanced", "nature": "basic", "ability": "pickup",
+        "abilityText": "Draw a Utility card before a battle, if it is a stat increase then attach to Douber",
+        "description": "Douber"},
+
+        {"id": 3, "name": "Paulmer", "damage": 16, "health": 7, "speed": 14,
+        "type": "light", "nature": "protective", "ability": "healing",
+        "abilityText": "Paulmer can heal a teammate once a battle for 7HP",
+        "description": "Paulmer"},
+
+        {"id": 4, "name": "Spyke", "damage": 6, "health": 28, "speed": 6,
+        "type": "natural", "nature": "defensive", "ability": "hardshell",
+        "abilityText": "Spyke takes -4 Damage on the 3rd turn of Battle",
+        "description": "Spyke"},
+
+        {"id": 5, "name": "Rapleer", "damage": 6, "health": 8, "speed": 10,
+        "type": "natural", "nature": "sneaky", "ability": "sneakattack",
+        "abilityText": "Rapleer deals +4 Damage if attacked while blocking",
+        "description": "Rapleer"},
+
+        {"id": 6, "name": "Stuic", "damage": 8, "health": 24, "speed": 4,
+        "type": "dark", "nature": "basic", "ability": "draw",
+        "abilityText": "If Stuic wins a battle, draw a Utility card",
+        "description": "Stuic"},
+
+        {"id": 7, "name": "Ssserpo", "damage": 7, "health": 22, "speed": 11,
+        "type": "natural", "nature": "basic", "ability": "thicktounge",
+        "abilityText": "Ssserpo deals +4 Damage on the 3rd turn of Battle",
+        "description": "Ssserpo"}
+    ],
+    "UncommonThree_cards": [
+
+    ],
+    "RareLeft_cards": [
+
+    ],
+    "RareRight_cards": [
+
+    ],
+    "Boss_cards": [
+
+    ],
+    "BossMinion_cards": [
+
+        {"id": 0, "name": "Chur", "damage": 4, "health": 20, "speed": 4,
+        "type": "advanced", "nature": "basic", "ability": "steamroll",
+        "abilityText": "Chur gains +3 Attack if they defeat an opponent"},
+
+        {"id": 1, "name": "Tick-trim", "damage": 9, "health": 6, "speed": 8,
+        "type": "artificial", "nature": "basic", "ability": "sneakattack",
+        "abilityText": "Tick-trim deals +4 Damage if attacked while blocking"},
+
+        {"id": 2, "name": "Pongu-body", "damage": 8, "health": 15, "speed": 2,
+        "type": "artificial", "nature": "basic", "ability": "sinkingship",
+        "abilityText": "Pongu-body gains +3 speed if Pongu dies"},
+
+        {"id": 3, "name": "Wreck-shedd", "damage": 7, "health": 18, "speed": 0,
+        "type": "elemental", "nature": "basic", "ability": "icydeath",
+        "abilityText": "Wreck-shedd lowers opponents attack once defeated"},
+
+         {"id": 4, "name": "Mearrudge", "damage": 5, "health": 16, "speed": 3,
+        "type": "dark", "nature": "sneaky", "ability": "steamroll",
+        "abilityText": "Chur gains +3 Attack if they defeat an opponent"},
+
+        {"id": 5, "name": "Narknight", "damage": 6, "health": 10, "speed": 6,
+        "type": "light", "nature": "protective", "ability": "guardsheild",
+        "abilityText": "If Narknight is dealt over 8 damage, damage is halved"},
+
+        {"id": 6, "name": "Wicke", "damage": 7, "health": 13, "speed": 5,
+        "type": "artificial", "nature": "basic", "ability": "spikes",
+        "abilityText": "Wicke deals +1 damage every 2nd turn"}
+    ]
+}
+

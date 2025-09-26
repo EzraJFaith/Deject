@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deject</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body class="homepageBox">
+    <h1 class="title">DEJECTS</h1>
+    <div class="home">
+        <div class="cardHolder"></div>
+        <div class="bonusHolder"></div>
+
+        <div class="buttonHolder">
+            <button class="homeButton" id="collectButton" type="button" onclick="openMenu('#collectMenu')">Collect</button>
+            <button class="homeButton" id="battleButton" type="button" onclick="openMenu('#battleMenu')">Battle</button>
+            <button class="subMenuButton" id="subHomeButton" type="button" onclick="saveArray()">Save Progress</button>
+            <button class="subMenuButton" id="subHomeButton" type="button" onclick="overwriteArray()">Delete Progress</button>
+        </div>
+
+    </div>
+
+    <div class="statMenu">
+        <h2>Stat Menu</h2>
+        <div class="cardStats"></div>
+        <button class="subMenuButton" type="button" onclick="closeMenu('.statMenu')">Close</button>
+    </div>
+
+    <div class="tempStatMenu">
+        <h2>Choose this card as your starter?</h2>
+        <div class="tempCardStats"></div>
+    </div>
+
+    <div class="showcaseMenu">
+        <h2>Choose this card?</h2>
+        <div class="showcaseCard"></div>
+    </div>
+
+    <div id="collectMenu" class="genericSubMenu">
+        <h2>Collect Menu</h2>
+        <button class="subMenuButton" type="button" onclick="createCard(C_cards)">Get Common Deject</button>
+        <button class="subMenuButton" type="button" onclick="createCard(U_cards)">Get Uncommon Deject</button>
+        <button class="subMenuButton" type="button" onclick="closeMenu('#collectMenu')">Close</button>
+    </div>
+
+    <div id="battleMenu" class="genericSubMenu">
+        <h2>Battle Menu</h2>
+        <button class="subMenuButton" type="button" onclick="bossList()">Battle Boss</button>
+        <button class="subMenuButton" type="button" onclick="closeMenu('#battleMenu')">Close</button>
+    </div>
+
+    <div class="bossMenu">
+        <h2>Battle Which Boss?</h2>
+        <div class="bossPit"></div>
+        <button class="subMenuButton" type="button" onclick="closeMenu('.bossMenu')">Close</button>
+    </div>
+
+     <div class="bossBattle">
+        <h2>Battle Boss</h2>
+        <div class="bossPitPit"></div>
+        <div class="bossButtons">
+        <button class="subMenuButton" type="button" onclick="chooseFighters()">Fight</button>
+        <button class="subMenuButton" type="button" onclick="closeMenu('.bossBattle')">Close</button>
+        </div>
+
+        <div class="fighterBox">
+        <div class="fighterWords">
+        <h2>Choose your Dejects</h2>
+        <p>You must choose 3 Dejects</p>
+        </div>
+        <div class="fighterPit"></div>
+        <button class="subMenuButton" type="button" onclick="closeMenu('.bossBattle')">Close</button>
+    </div>
+
+    </div>
+
+
+
+<script src="home.js"></script>
+</body>
+</html>
