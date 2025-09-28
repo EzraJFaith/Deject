@@ -155,7 +155,7 @@ const R_cards = [
   {id: 19, deck: "rare", name: "Marrifuge", damage: 4, health: 9, speed: 2, type: "natural", nature: "basic", ability: "x", abilityText: "Marrifuge takes half damage rounded down for two turns", description: "x", version: "1/3", image: "Pictures/Halo1.JPG"},
   {id: 20, deck: "rare", name: "Snoball", damage: 6, health: 3, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Snoball gains +2 Attack every turn", description: "x", version: "1/3", image: "Pictures/Snoball1.JPG"},
   {id: 21, deck: "rare", name: "Hopper", damage: 6, health: 8, speed: 4, type: "natural", nature: "basic", ability: "x", abilityText: "Hopper regains missing Health after battle unless they die", description: "x", version: "1/3", image: "Pictures/Frog1.JPG"},
-  {id: 22, deck: "rare", name: "Petloar", damage: 5, health: 9, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Steal one TP when Petloar", description: "x", version: "1/3", image: "Pictures/Garf.webp"},
+  {id: 22, deck: "rare", name: "Petloar", damage: 5, health: 9, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Steal one TP when Petloar transforms", description: "x", version: "1/3", image: "Pictures/Garf.webp"},
   {id: 23, deck: "rare", name: "Einsaur", damage: 3, health: 6, speed: 3, type: "natural", nature: "basic", ability: "x", abilityText: "Add +1 Attack for each opponent over 10 Health", description: "x", version: "1/3", image: "Pictures/Einsaur1.JPG"},
   {id: 24, deck: "rare", name: "Angeal", damage: 0, health: 15, speed: 3, type: "natural", nature: "basic", ability: "x", abilityText: "Revive a teammember once", description: "x", version: "1/2", image: "Pictures/Angel1.JPG"},
   {id: 25, deck: "rare", name: "Empath", damage: 2, health: 20, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Block an teammate every turn but take double damage", description: "x", version: "1/3", image: "Pictures/Empath1.JPG"},
@@ -261,7 +261,7 @@ const Sthree_cards = [
 
 const Cthree_cards = [
   {id: 1, name: "OffSpring", damage: 3, health: 20, speed: 8, type: "artificial", nature: "basic", ability: "mutualism", abilityText: "No ability", description: "Offspring", version: "3/3", image: "Pictures/Offspring3.JPG"},
-  {id: 17, name: "Baclaphobe", damage: 3, health: 10, speed: 3, type: "artificial", nature: "basic", ability: "multiply", abilityText: "Baclaphobe doubles its attack every attack", description: "Baclaphobe", version: "3/3", image: "Pictures/Baclaphobe3.jpg"},
+  {id: 17, name: "Baclaphobe", damage: 3, health: 10, speed: 3, type: "artificial", nature: "basic", ability: "multiply", abilityText: "Baclaphobe doubles its attack every attack", description: "Baclaphobe", version: "3/3", image: "Pictures/Baclaphobe3.JPG"},
   {id: 20, name: "Vervolve", damage: 7, health: 10, speed: 9, type: "natural", nature: "basic", ability: "weakling", abilityText: "No ability", description: "Vervolve", version: "34/3", image: "Pictures/Vervole3.JPG"}
 ];
 
@@ -915,6 +915,7 @@ function overwriteArray() {
     localStorage.setItem(name, JSON.stringify(placeholderCards));
     window.location.href = "whoareyou.html";
 }
+
 
 
 
