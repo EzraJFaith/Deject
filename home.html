@@ -25,7 +25,7 @@
     <div class="statMenu">
         <h2>Stat Menu</h2>
         <div class="cardStats"></div>
-        <button class="subMenuButton" type="button" onclick="closeMenu('.statMenu')">Close</button>
+        <h2></h2>
     </div>
 
     <div class="tempStatMenu">
@@ -34,15 +34,27 @@
     </div>
 
     <div class="showcaseMenu">
-        <h2>Choose this card?</h2>
-        <div class="showcaseCard"></div>
+        <div class="showcaseHolder">
+            <div class="showcaseCard"></div>
+            <div class="fighterWildBox">
+        <h2>Choose Fighter</h2>
+        <div class="wildPit"></div>
+    </div>
+    </div>
     </div>
 
     <div id="collectMenu" class="genericSubMenu">
         <h2>Collect Menu</h2>
-        <button class="subMenuButton" type="button" onclick="createCard(C_cards)">Get Common Deject</button>
-        <button class="subMenuButton" type="button" onclick="createCard(U_cards)">Get Uncommon Deject</button>
+        <button class="subMenuButton" type="button" onclick="createCard(C_cards, 'common')">Get Common Deject</button>
+        <button class="subMenuButton" type="button" onclick="createCard(U_cards, 'uncommon')">Get Uncommon Deject</button>
+        <button class="subMenuButton" type="button" onclick="createCard(R_cards, 'rare')">Get Rare Deject</button>
         <button class="subMenuButton" type="button" onclick="closeMenu('#collectMenu')">Close</button>
+    </div>
+
+    <div class="statChangeMenu">
+        <h2>Lower Health</h2>
+        <select id="healthSlider"></select>
+        <button class="subMenuButton" type="button" onclick="closeSubMenu('.statChangeMenu')">Close</button>
     </div>
 
     <div id="battleMenu" class="genericSubMenu">
