@@ -12,11 +12,19 @@ const cardStat = document.querySelector('.cardStats');
 const buttonHolder = document.querySelector('.buttonHolder');
 const tempMenu = document.querySelector('.tempStatMenu');
 const bossPit = document.querySelector('.bossPit');
+const wildPit = document.querySelector('.wildPit');
 const fighterPit = document.querySelector('.fighterPit');
 const bossPitPit = document.querySelector('.bossPitPit');
 const showcaseMenu = document.querySelector('.showcaseMenu');
 const pointMenu = document.querySelector('#pointMenu');
 const popup = document.querySelector('.popup');
+
+const cardColors = {
+    starter: 'rgb(0, 255, 38)',   
+    common: 'aqua',   
+    uncommon: '#233eb7ff',  
+    rare: '#db3cd0ff'
+};
 
 
 
@@ -920,4 +928,5 @@ function overwriteArray() {
     localStorage.setItem(name, JSON.stringify(placeholderCards));
     window.location.href = "whoareyou.html";
 }
+
 
