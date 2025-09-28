@@ -84,7 +84,8 @@ const C_cards = [
   {id: 25, deck: "common", name: "Salmyte", damage: 2, health: 9, speed: 3, type: "artificial", nature: "basic", ability: "lick", abilityText: "double the effects of a utility card", description: "Salmyte", version: "1/2", image: "Pictures/Salmyte1.JPG"},
   {id: 26, deck: "common", name: "Raidt", damage: 1, health: 10, speed: 1, type: "elemental", nature: "basic", ability: "raidiate", abilityText: "Deal +1 damage to all opponenets every turn", description: "Raidt", version: "1/2", image: "Pictures/Raidt1.JPG"},
   {id: 27, deck: "common", name: "Pluge", damage: 3, health: 8, speed: 4, type: "natural", nature: "basic", ability: "plugin", abilityText: "Deal double damage to elemental dejects", description: "Pluge", version: "1/2", image: "Pictures/Pluge1.JPG"},
-  {id: 28, deck: "common", name: "Goob", damage: 4, health: 6, speed: 4, type: "natural", nature: "basic", ability: "nothing", abilityText: "No ability", description: "Goob", version: "1/2", image: "Pictures/Goob1.JPG"}
+  {id: 28, deck: "common", name: "Goob", damage: 4, health: 6, speed: 4, type: "natural", nature: "basic", ability: "nothing", abilityText: "No ability", description: "Goob", version: "1/2", image: "Pictures/Goob1.JPG"},
+  {id: 29, deck: "common", name: "Sonni", damage: 1, health: 5, speed: 2, type: "natural", nature: "passive", ability: "collectable", abilityText: "Deal 100 damage to all opponents on turn 5", description: "Sonni", version: "1/1", image: "Pictures/Sonni.JPG"},
 ];
 
 const U_cards = [
@@ -544,9 +545,7 @@ function chooseWildFighter() {
         fighter.innerHTML = `
         <h4>${card.name}</h4>
         <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
-        <p>Attack:${card.damage}</p>
-        <p>Health:${card.health}</p>
-        <p>Speed:${card.speed}</p>
+        <p>${card.damage} ${card.health}${card.speed}</p>
         <p>${card.abilityText}</p>
     `;
     fighter.onclick = () => showWildFighter(card);
@@ -562,9 +561,7 @@ function showWildFighter(card) {
     fighter.innerHTML = `
         <h4>${card.name}</h4>
         <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
-        <p>Attack: ${card.damage}</p>
-        <p>Health: ${card.health}</p>
-        <p>Speed: ${card.speed}</p>
+        <p>${card.damage}${card.health}${card.speed}</p>
         <p>${card.abilityText}</p>
 
     `;
@@ -751,9 +748,7 @@ function bossList() {
         bossBox.innerHTML = `
         <h4>${boss.name}</h4>
         <img src="${boss.image}" alt="${boss.name}" style="grid-area: box2">
-        <p>Attack:${boss.damage}</p>
-        <p>Health:${boss.health}</p>
-        <p>Speed:${boss.speed}</p>
+        <p>Attack:${boss.damage}${boss.health}${boss.speed}</p>
         <p>${boss.ability}</p>
     `;
     bossBox.onclick = () => showBoss(boss);
@@ -772,9 +767,7 @@ function showBoss(boss) {
         <h4>${boss.name}</h4>
         <img src="${boss.image}" alt="${boss.name}" style="grid-area: box2">
         <p>${boss.nature}</p>
-        <p>${boss.damage}</p>
-        <p>${boss.health}</p>
-        <p>${boss.speed}</p>
+        <p>${boss.damage}${boss.health}${boss.speed}</p>
         <p>${boss.abilityText}</p>
     `;
 
@@ -786,9 +779,7 @@ function showBoss(boss) {
         <h4>${minionObj.name}</h4>
         <img src="${minionObj.image}" alt="${minionObj.name}" style="grid-area: box2">
         <p>${minionObj.nature}</p>
-        <p>${minionObj.damage}</p>
-        <p>${minionObj.health}</p>
-        <p>${minionObj.speed}</p>
+        <p>${minionObj.damage}${minionObj.health}${minionObj.speed}</p>
         <p>${minionObj.abilityText}</p>
     `
 
@@ -798,9 +789,7 @@ function showBoss(boss) {
         <h4>${minionObj.name}</h4>
         <img src="${minionObj.image}" alt="${minionObj.name}" style="grid-area: box2">
         <p>${minionObj.nature}</p>
-        <p>${minionObj.damage}</p>
-        <p>${minionObj.health}</p>
-        <p>${minionObj.speed}</p>
+        <p>${minionObj.damage}${minionObj.health}${minionObj.speed}</p>
         <p>${minionObj.abilityText}</p>
     `
 
@@ -854,9 +843,7 @@ function chooseFighters() {
             <h4>${card.name}</h4>
             <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
             <p>${card.nature}</p>
-            <p>${card.damage}</p>
-            <p>${card.health}</p>
-            <p>${card.speed}</p>
+            <p>${card.damage}${card.health}${card.speed}</p>
             <p>${card.abilityText}</p>`;
             fighterPit.appendChild(finalFighters);
     });
@@ -928,5 +915,6 @@ function overwriteArray() {
     localStorage.setItem(name, JSON.stringify(placeholderCards));
     window.location.href = "whoareyou.html";
 }
+
 
 
