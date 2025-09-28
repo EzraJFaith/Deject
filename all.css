@@ -89,7 +89,7 @@ img{
 }
 
 .card {
-    background-color: aqua;
+    background-color: rgb(254, 243, 36);
     border: solid;
     border-radius: 10px;
     width: 150px;
@@ -97,6 +97,14 @@ img{
     cursor: pointer;
     text-align: center;
     text-decoration: underline;
+}
+
+.stat{
+    border: black 5px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
 }
 
 .cardTemp {
@@ -129,14 +137,14 @@ img{
    border: 1px grey solid;
    padding: 5px 80px;
    grid-template-columns: auto auto auto auto;
-   gap: 1rem;
+  
    font-size: medium;
    grid-template-areas: 
-   "box1 box1 box4 box11"
+   "box1 box1 box1 box11"
    "box2 box2 box2 box2"
-   "box5 box6 box7 box7"
+   "box5 box6 box7 box4"
    "box8 box8 box8 box8"
-   "box9 box9 box10 box12";
+   "box10 box12 box13 box13";
 }
 
 .cardStats img {
@@ -150,22 +158,24 @@ img{
     background-color: rgb(129, 13, 13);
     border: solid;
     border-radius: 10px;
-    width: 300x;
-    height: 400px;
+    max-width: 250px;
+    max-height: 350px;
     cursor: pointer;
     text-align: center;
     text-decoration: underline;
+
 }
 
 .fighterCard {
     background-color: rgb(14, 115, 37);
     border: solid;
     border-radius: 10px;
-    width: 300x;
-    height: 400px;
+    max-width: 250px;
+    max-height: 350px;
     cursor: pointer;
     text-align: center;
     text-decoration: underline;
+    
 }
 
 .fighterCard.selected {
@@ -182,6 +192,15 @@ img{
 .fighterBox {
     display:none;
     background-color: rgb(252, 115, 113);
+}
+
+.fighterWildBox {
+    background-color: rgb(101, 231, 211);
+}
+
+.wildPit {
+    display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); 
 }
 
 .fighterPit {
@@ -220,6 +239,14 @@ img{
     margin: 0 50px;
 }
 
+.statChangeMenu {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 50px;
+}
+
 .tempStatMenu {
     display:none;
     background-color: rgb(118, 243, 73);
@@ -228,12 +255,17 @@ img{
     margin: 0 50px;
 }
 
+.showcaseHolder{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .showcaseMenu {
     display:none;
     background-color: rgb(239, 67, 136);
     border-radius: 10px;
     justify-content: center;
-    margin: 0 50px;
+
 }
 
 #collectMenu {
@@ -309,6 +341,19 @@ img{
   
 }
 
+.smallerButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  width: 60%;
+  min-width: 100px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
 .homeButton {
   border: none;
   border-radius: 10px;
@@ -341,4 +386,6 @@ img{
   background-color: #969e00;
   color: white;
 }
+
+
 
