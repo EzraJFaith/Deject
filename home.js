@@ -48,7 +48,7 @@ const S_cards = [
 ];
 
 const C_cards = [
-  {id: 0, deck: "common", name: "Bladee", damage: 4, health: 8, speed: 3, type: "natural", nature: "passive", ability: "collectable", abilityText: "Gain 5TP if you hold 3 Bladee", description: "Bladee", version: "1/2", image: "Pictures/Bladee1.JPG"},
+  {id: 0, deck: "common", name: "Bladee", damage: 4, health: 8, speed: 3, type: "natural", nature: "passive", ability: "collectable", abilityText: "Gain 5TP if you hold 3 Bladee", description: "Bladee", version: "1/2", image: "./Pictures/Bladee1.JPG"},
   {id: 1, deck: "common", name: "OffSpring", damage: 1, health: 9, speed: 4, type: "artificial", nature: "basic", ability: "mutualism", abilityText: "If Offspring transforms, transforms another deject", description: "Offspring", version: "1/3", image: "Pictures/Offspring1.jpg"},
   {id: 2, deck: "common", name: "Moxe", damage: 4, health: 9, speed: 4, type: "artificial", nature: "aggressive", ability: "pintup", abilityText: "Moxe can only double damage on turn 2", description: "Moxe", version: "1/2", image: "Pictures/Hotdog78.webp"},
   {id: 3, deck: "common", name: "Trixard", damage: 2, health: 6, speed: 3, type: "light", nature: "strategic", ability: "joker", abilityText: "Trixards attack is doubled every time a new target is attacked", description: "Trixard", version: "1/2", image: "Pictures/Trixard1.jpg"},
@@ -783,5 +783,6 @@ function overwriteArray() {
     localStorage.setItem(name, JSON.stringify(placeholderCards));
     window.location.href = "whoareyou.html";
 }
+
 
 
