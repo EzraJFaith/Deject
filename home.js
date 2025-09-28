@@ -248,6 +248,35 @@ const UTwo_cards = [
   {id: 40, deck: "uncommonTwo", name: "Philanthorn", damage: 2, health: 21, speed: 2, type: "natural", nature: "basic", ability: "x", abilityText: "Give teammates +3 HP", description: "x", version: "2/3", image: "Pictures/Philanthorn2.JPG"}
 ];
 
+const Rtwo_cards = [
+  {id: 0, deck: "rareTwo", name: "Giabog", damage: 6, health: 18, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Giabog can deal +6 damage to any oppoenet after death", description: "x", version: "2/3", image: "Pictures/Giabog2.JPG"},
+  {id: 1, deck: "rareTwo", name: "Shockstrum", damage: 3, health: 14, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Roll a d6 and add that to attack", description: "x", version: "2/3", image: "Pictures/Shockstrum2.JPG"},
+  {id: 2, name: "Newburn", damage: 7, health: 10, speed: 9, type: "natural", nature: "basic", ability: "x", abilityText: "If Newburn dies, revive it after battle", description: "x", version: "2/2", image: "Pictures/Newburn2.JPG"},
+  {id: 3, name: "Tiki", damage: 5, health: 20, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Tiki gains +3 Attack every turn ", description: "x", version: "2/2", image: "Pictures/Tiki2.JPG"},
+  {id: 4, name: "Mooses", damage: 7, health: 22, speed: 0, type: "natural", nature: "basic", ability: "x", abilityText: "If Mooses dies during battle, fully heal two teammembers", description: "x", version: "2/2", image: "Pictures/Mooses2.JPG"},
+  {id: 5, name: "Picksur", damage: 10, health: 20, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "Attack 2 enemies at once", description: "x", version: "2/2", image: "Pictures/Picksur2.JPG"}, 
+  {id: 6, name: "Motivox", damage: 2, health: 26, speed: 15, type: "natural", nature: "basic", ability: "x", abilityText: "Raise teammates speed by +5", description: "x", version: "2/2", image: "Pictures/Motivox2.JPG"},
+  {id: 7, deck: "rareTwo", name: "Cragila", damage: 8, health: 10, speed: 3, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "2/3", image: "Pictures/Cragilla2.JPG"},
+  {id: 8, deck: "rareTwo", name: "Snatcher", damage: 6, health: 10, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "2/3", image: "Pictures/Snatcher2.JPG"},
+  {id: 9, deck: "rareTwo", name: "Duune", damage: 4, health: 16, speed: 6, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "2/3", image: "Pictures/Duune2.JPG"},
+  {id: 10, name: "Messaver", damage: 5, health: 8, speed: 13, type: "natural", nature: "basic", ability: "x", abilityText: "Allow access to battle station from anywhere anytime", description: "x", version: "2/2", image: "Pictures/Messaver2.JPG"},
+  {id: 11, name: "Guardinal", damage: 5, health: 25, speed: 2, type: "natural", nature: "basic", ability: "x", abilityText: "Prevent enemy abilities until Guardinal dies", description: "x", version: "2/2", image: "Pictures/CatStupid.webp"},
+  {id: 12, name: "Mantox", damage: 12, health: 5, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "Mantox must be attacked twice to die", description: "x", version: "2/2", image: "Pictures/Mantox2.JPG"},
+  {id: 13, deck: "rareTwo", name: "Spiritrap", damage: 6, health: 15, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Gain triple P from Yellow space", description: "x", version: "2/3", image: "Pictures/Spiritrap2.JPG"},
+  {id: 14, deck: "rareTwo", name: "Griffith", damage: 3, health: 16, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "Add +2 to movement dice twice more", description: "x", version: "2/3", image: "Pictures/Griffith2.JPG"},
+  {id: 15, deck: "rareTwo", name: "Flups", damage: 6, health: 15, speed: 7, type: "natural", nature: "basic", ability: "x", abilityText: "Heal a teammate for 10 health once", description: "x", version: "2/3", image: "Pictures/Flups2.JPG"},
+  {id: 16, deck: "rareTwo", name: "Whizz", damage: 3, health: 10, speed: 3, type: "natural", nature: "basic", ability: "x", abilityText: "Gain +3 Attack against opponenets with speed under 6", description: "x", version: "2/3", image: "Pictures/Whizz2.JPG"},
+  {id: 17, deck: "rareTwo", name: "Stonepede", damage: 2, health: 25, speed: 2, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "2/3", image: "Pictures/true.JPG"},
+  {id: 18, deck: "rareTwo", name: "Liogen", damage: 9, health: 6, speed: 6, type: "natural", nature: "basic", ability: "x", abilityText: "Teammates with Health below 9 gain +2 Attack", description: "x", version: "2/3", image: "Pictures/Liogen2.JPG"},
+  {id: 19, deck: "rareTwo", name: "Marrifuge", damage: 6, health: 15, speed: 3, type: "natural", nature: "basic", ability: "x", abilityText: "Marrifuge takes half damage rounded down for two turns", description: "x", version: "2/3", image: "Pictures/Halo2.JPG"},
+  {id: 20, deck: "rareTwo", name: "Snoball", damage: 10, health: 4, speed: 7, type: "natural", nature: "basic", ability: "x", abilityText: "Snoball gains +3 Attack every turn", description: "x", version: "2/3", image: "Pictures/Snoball2.JPG"},
+  {id: 21, deck: "rareTwo", name: "Hopper", damage: 9, health: 12, speed: 6, type: "natural", nature: "basic", ability: "x", abilityText: "Hopper regains missing Health after battle unless they die", description: "x", version: "2/3", image: "Pictures/Frog2.JPG"},
+  {id: 22, deck: "rareTwo", name: "Petloar", damage: 7, health: 14, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "Steal one TP when Petloar transforms", description: "x", version: "2/3", image: "Pictures/Garf.webp"},
+  {id: 23, deck: "rareTwo", name: "Einsaur", damage: 5, health: 9, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Add +1 Attack for each opponent over 10 Health", description: "x", version: "2/3", image: "Pictures/Einsaur2.JPG"},
+  {id: 24, name: "Angeal", damage: 0, health: 25, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Revive a teammember anytime", description: "x", version: "2/2", image: "Pictures/Angel2.JPG"},
+  {id: 25, deck: "rareTwo", name: "Empath", damage: 3, health: 25, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "Block a teammate every turn but take double damage", description: "x", version: "2/3", image: "Pictures/Empath2.JPG"},
+];
+
 const Sthree_cards = [
   {id: 0, name: "Guncho", damage: 16, health: 14, speed: 5, type: "advanced", nature: "aggressive", ability: "speedup", abilityText: "Guncho gains +2 Speed every turn", description: "Guncho", version: "3/3", image: "Pictures/Guncho3.JPG"},
   {id: 1, name: "Glittle", damage: 7, health: 20, speed: 10, type: "artificial", nature: "basic", ability: "bossfat", abilityText: "Glittle takes -2 Damage from Boss attacks", description: "Glittle", version: "3/3", image: "Pictures/Glittle3.JPG"},
@@ -289,6 +318,26 @@ const Uthree_cards = [
   {id: 30, name: "Mermunch", damage: 12, health: 8, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Teammates heal +3HP every turn", description: "x", version: "3/3", image: "Pictures/Mermunch3.JPG"},
   {id: 31, name: "Powda", damage: 9, health: 24, speed: 3, type: "natural", nature: "sneaky", ability: "x", abilityText: "Deal double damage when dodging an attack", description: "x", version: "3/3", image: "Pictures/Powda3.JPG"},
   {id: 37, name: "Floogyte", damage: 9, health: 10, speed: 7, type: "natural", nature: "basic", ability: "x", abilityText: "Spend -3p to block an attack during battle", description: "x", version: "3/3", image: "Pictures/Floogyte3.JPG"},
+];
+
+const Rthree_cards = [
+  {id: 0, name: "Giabog", damage: 8, health: 18, speed: 7, type: "natural", nature: "basic", ability: "x", abilityText: "Giabog can deal +8 damage to any oppoenet after death", description: "x", version: "3/3", image: "Pictures/Giabog3.JPG"},
+  {id: 1, name: "Shockstrum", damage: 4, health: 15, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Roll a d6 and add that to attack", description: "x", version: "3/3", image: "Pictures/Shockstrum3.JPG"},
+  {id: 7, name: "Cragila", damage: 10, health: 15, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "3/3", image: "Pictures/Cragilla3.JPG"},
+  {id: 8, name: "Snatcher", damage: 8, health: 12, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "3/3", image: "Pictures/Snatcher3.JPG"},
+  {id: 9,  name: "Duune", damage: 5, health: 20, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "3/3", image: "Pictures/Duune3.JPG"},
+  {id: 13, name: "Spiritrap", damage: 8, health: 18, speed: 5, type: "natural", nature: "basic", ability: "x", abilityText: "Gain quadruple P from Yellow space", description: "x", version: "3/3", image: "Pictures/Spiritrap3.JPG"},
+  {id: 14, name: "Griffith", damage: 4, health: 22, speed: 12, type: "natural", nature: "basic", ability: "x", abilityText: "Add +2 to movement dice anytime", description: "x", version: "3/3", image: "Pictures/Griffith3.JPG"},
+  {id: 15, name: "Flups", damage: 8, health: 20, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "Heal a teammate for 15 health once", description: "x", version: "3/3", image: "Pictures/Flups3.JPG"},
+  {id: 16, name: "Whizz", damage: 4, health: 14, speed: 4, type: "natural", nature: "basic", ability: "x", abilityText: "Gain +4 Attack against opponenets with speed under 12", description: "x", version: "3/3", image: "Pictures/Whizz3.JPG"},
+  {id: 17, name: "Stonepede", damage: 2, health: 45, speed: 2, type: "natural", nature: "basic", ability: "x", abilityText: "No ability", description: "x", version: "3/3", image: "Pictures/true.JPG"},
+  {id: 18, name: "Liogen", damage: 12, health: 8, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "Teammates with Health below 12 gain +3 Attack", description: "x", version: "3/3", image: "Pictures/Liogen3.JPG"},
+  {id: 19, name: "Marrifuge", damage: 8, health: 20, speed: 4, type: "natural", nature: "basic", ability: "x", abilityText: "Marrifuge takes half damage rounded down for two turns", description: "x", version: "3/3", image: "Pictures/Halo3.JPG"},
+  {id: 20, name: "Snoball", damage: 16, health: 5, speed: 19, type: "natural", nature: "basic", ability: "x", abilityText: "Snoball gains +3 Attack every turn", description: "x", version: "3/3", image: "Pictures/Snoball3.JPG"},
+  {id: 21, name: "Hopper", damage: 12, health: 16, speed: 8, type: "natural", nature: "basic", ability: "x", abilityText: "Hopper regains missing Health after battle unless they die", description: "x", version: "3/3", image: "Pictures/Frog3.JPG"},
+  {id: 22, name: "Petloar", damage: 10, health: 20, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "Steal one TP when Petloar transforms", description: "x", version: "3/3", image: "Pictures/Garf.webp"},
+  {id: 23, name: "Einsaur", damage: 6, health: 12, speed: 6, type: "natural", nature: "basic", ability: "x", abilityText: "Add +2 Attack for each opponent over 10 Health", description: "x", version: "3/3", image: "Pictures/Einsaur3.JPG"},
+  {id: 25, name: "Empath", damage: 4, health: 50, speed: 10, type: "natural", nature: "basic", ability: "x", abilityText: "Block an teammate every turn but take double damage", description: "x", version: "3S/3", image: "Pictures/Empath3.JPG"},
 ];
 
 const boss = [
@@ -545,7 +594,9 @@ function chooseWildFighter() {
         fighter.innerHTML = `
         <h4>${card.name}</h4>
         <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
-        <p>${card.damage} ${card.health}${card.speed}</p>
+        <p>Attack:${card.damage}</p>
+        <p>Health:${card.health}</p>
+        <p>Speed:${card.speed}</p>
         <p>${card.abilityText}</p>
     `;
     fighter.onclick = () => showWildFighter(card);
@@ -561,7 +612,9 @@ function showWildFighter(card) {
     fighter.innerHTML = `
         <h4>${card.name}</h4>
         <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
-        <p>${card.damage}${card.health}${card.speed}</p>
+        <p>Attack: ${card.damage}</p>
+        <p>Health: ${card.health}</p>
+        <p>Speed: ${card.speed}</p>
         <p>${card.abilityText}</p>
 
     `;
@@ -643,6 +696,9 @@ function openTransformationMenu(card) {
             if (deck == "uncommon") {
                 alternateForm = UTwo_cards.find(UTwo_cards => UTwo_cards.id === card.id);
             }
+            if (deck == "rare") {
+                alternateForm = Rtwo_cards.find(RTwo_cards => RTwo_cards.id === card.id);
+            }
             if (deck == "starterTwo") {
                 alternateForm = Sthree_cards.find(Sthree_cards => Sthree_cards.id === card.id);
             }
@@ -651,6 +707,9 @@ function openTransformationMenu(card) {
             }
             if (deck == "uncommonTwo") {
                 alternateForm = Uthree_cards.find(Uthree_cards => Uthree_cards.id === card.id);
+            }
+            if (deck == "rareTwo") {
+                alternateForm = Rthree_cards.find(Rthree_cards => Rthree_cards.id === card.id);
             }
             
 
@@ -706,6 +765,9 @@ function transformCard(card) {
                 if (card.deck == "uncommon") {
                 alternateForm = UTwo_cards.find(alt => alt.id === card.id);
                 }
+                if (card.deck == "rare") {
+                alternateForm = Rtwo_cards.find(alt => alt.id === card.id);
+                }
                 if (card.deck == "starterTwo") {
                 alternateForm = Sthree_cards.find(alt => alt.id === card.id);
                 }
@@ -714,6 +776,9 @@ function transformCard(card) {
                 }
                 if (card.deck == "uncommonTwo") {
                 alternateForm = Uthree_cards.find(alt => alt.id === card.id);
+                }
+                if (card.deck == "rareTwo") {
+                alternateForm = Rthree_cards.find(alt => alt.id === card.id);
                 }
 
                 if (cardIndex !== -1 && alternateForm) {
@@ -748,7 +813,9 @@ function bossList() {
         bossBox.innerHTML = `
         <h4>${boss.name}</h4>
         <img src="${boss.image}" alt="${boss.name}" style="grid-area: box2">
-        <p>Attack:${boss.damage}${boss.health}${boss.speed}</p>
+        <p>Attack:${boss.damage}</p>
+        <p>Health:${boss.health}</p>
+        <p>Speed:${boss.speed}</p>
         <p>${boss.ability}</p>
     `;
     bossBox.onclick = () => showBoss(boss);
@@ -767,7 +834,9 @@ function showBoss(boss) {
         <h4>${boss.name}</h4>
         <img src="${boss.image}" alt="${boss.name}" style="grid-area: box2">
         <p>${boss.nature}</p>
-        <p>${boss.damage}${boss.health}${boss.speed}</p>
+        <p>${boss.damage}</p>
+        <p>${boss.health}</p>
+        <p>${boss.speed}</p>
         <p>${boss.abilityText}</p>
     `;
 
@@ -779,7 +848,9 @@ function showBoss(boss) {
         <h4>${minionObj.name}</h4>
         <img src="${minionObj.image}" alt="${minionObj.name}" style="grid-area: box2">
         <p>${minionObj.nature}</p>
-        <p>${minionObj.damage}${minionObj.health}${minionObj.speed}</p>
+        <p>${minionObj.damage}</p>
+        <p>${minionObj.health}</p>
+        <p>${minionObj.speed}</p>
         <p>${minionObj.abilityText}</p>
     `
 
@@ -789,7 +860,9 @@ function showBoss(boss) {
         <h4>${minionObj.name}</h4>
         <img src="${minionObj.image}" alt="${minionObj.name}" style="grid-area: box2">
         <p>${minionObj.nature}</p>
-        <p>${minionObj.damage}${minionObj.health}${minionObj.speed}</p>
+        <p>${minionObj.damage}</p>
+        <p>${minionObj.health}</p>
+        <p>${minionObj.speed}</p>
         <p>${minionObj.abilityText}</p>
     `
 
@@ -843,7 +916,9 @@ function chooseFighters() {
             <h4>${card.name}</h4>
             <img src="${card.image}" alt="${card.name}" style="grid-area: box2">
             <p>${card.nature}</p>
-            <p>${card.damage}${card.health}${card.speed}</p>
+            <p>${card.damage}</p>
+            <p>${card.health}</p>
+            <p>${card.speed}</p>
             <p>${card.abilityText}</p>`;
             fighterPit.appendChild(finalFighters);
     });
@@ -915,6 +990,9 @@ function overwriteArray() {
     localStorage.setItem(name, JSON.stringify(placeholderCards));
     window.location.href = "whoareyou.html";
 }
+
+
+
 
 
 
